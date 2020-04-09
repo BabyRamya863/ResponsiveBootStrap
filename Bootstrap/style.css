@@ -5,7 +5,7 @@ body
 }
 header
 {
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('src/3.jpeg') no-repeat fixed center center ;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("src/3.jpeg") no-repeat fixed center center ;
 	background-size: cover;
 	height: 100vh;
 }
@@ -85,13 +85,13 @@ header
 } 
 .next
 {
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('src/4.jpeg') no-repeat fixed center center ;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("src/4.jpeg") no-repeat fixed center center ;
 	background-size: cover;
     height:40vh;
  }   
  .after-technologies
  {
-     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('src/1.jpeg') no-repeat fixed center center ;
+     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("src/1.jpeg") no-repeat fixed center center ;
 	background-size: cover;
     height:60vh;
 
@@ -104,8 +104,21 @@ header
 }
 .after-request
 {
-	 background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('src/2.jpeg') no-repeat fixed center center ;
+	 background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("src/2.jpeg") no-repeat fixed center center ;
 	background-size: cover;
     height:70vh;
 
+}
+h2
+{
+    text-align: center;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #ff6600;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
